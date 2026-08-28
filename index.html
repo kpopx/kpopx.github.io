@@ -15,16 +15,19 @@
     :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
     * { box-sizing: border-box; }
     body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 24px 0; background: #0c0f11; color: #eef0f1; }
-    main { width: min(580px, calc(100% - 32px)); padding: clamp(28px, 7vw, 52px); border: 1px solid #282e32; border-radius: 14px; background: #121619; text-align: center; box-shadow: 0 18px 55px rgba(0,0,0,.28); }
+    main { width: min(680px, calc(100% - 32px)); padding: clamp(28px, 7vw, 52px); border: 1px solid #282e32; border-radius: 14px; background: #121619; text-align: center; box-shadow: 0 18px 55px rgba(0,0,0,.28); }
     .brand { margin: 0 0 28px; font-size: 22px; font-weight: 850; letter-spacing: -.4px; } .brand span { color: #ffcc2f; }
     h1 { margin: 0 0 10px; font-size: clamp(28px, 7vw, 38px); letter-spacing: -1px; }
     .lead { margin: 0 0 30px; color: #aeb5ba; line-height: 1.6; }
     .label { margin: 0; color: #8f989e; font-size: 13px; font-weight: 700; }
     .address { display: block; margin: 10px 0 16px; color: #ffcc2f; font-size: clamp(21px, 6vw, 30px); font-weight: 850; overflow-wrap: anywhere; }
     .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 22px; border-radius: 7px; background: #ffcc2f; color: #111416; font-weight: 850; }
-    .info { margin: 28px 0; color: #c9ced1; line-height: 1.7; }
-    .discovery { margin: 0; color: #7f888e; font-size: 12px; line-height: 1.65; }
-    .telegram-label { margin-top: 28px; }
+    .panel { margin-top: 22px; padding: 20px; border: 1px solid #282e32; border-radius: 10px; background: #0e1214; }
+    .panel p { margin: 8px 0 0; color: #aeb5ba; line-height: 1.6; }
+    .name { display: block; margin-top: 7px; font-size: 18px; font-weight: 800; }
+    .vip { text-align: left; }
+    .vip h2 { margin-top: 0; font-size: 20px; }
+    .vip p { color: #c9ced1; }
     .contact { display: inline-block; margin-top: 8px; color: #eef0f1; overflow-wrap: anywhere; }
     a { text-decoration: none; } a:hover { filter: brightness(1.08); } a:focus-visible { outline: 2px solid #ffcc2f; outline-offset: 4px; }
     footer { margin-top: 34px; color: #697279; font-size: 12px; }
@@ -35,13 +38,25 @@
   <p class="brand">Kpop<span>X</span></p>
   <h1>KpopX 최신주소</h1>
   <p class="lead">KpopX 한국 사이트의 공식 최신 접속 주소입니다.</p>
+  <p class="label">KpopX 글로벌 공식 사이트</p>
+  <a class="contact" href="https://kpopx.net/" target="_blank" rel="noopener noreferrer">https://kpopx.net/</a>
+  <div class="panel">
   <p class="label">현재 한국 접속 주소</p>
-  <a class="address" href="https://kpopx1.net/">kpopx1.net</a>
-  <a class="button" href="https://kpopx1.net/">KpopX 접속하기</a>
-  <p class="info">주소가 변경될 경우 이 페이지에서 새로운 공식 주소를 안내합니다.</p>
-  <p class="discovery">야동코리아, 야동공장, 밍키넷, 레드통, 야코레드 등 주소 검색으로 방문한 경우에도 이 페이지는 KpopX 공식주소만 안내하며, 해당 제3자 사이트들과 제휴 관계가 없습니다.</p>
-  <p class="discovery"><a class="contact" href="https://yadongkorea.page/">한국 주소찾기·안전접속 상세 가이드</a></p>
-  <p class="label telegram-label">Official Telegram</p>
-  <a class="contact" href="https://t.me/kpopx_official">https://t.me/kpopx_official</a>
-  <footer>KpopX Official Access Information<br>최근 업데이트: 2026-08-27 00:35 UTC</footer>
+  <a class="address" href="https://kpopx1.net/" target="_blank" rel="noopener noreferrer">https://kpopx1.net/</a>
+  <a class="button" href="https://kpopx1.net/" target="_blank" rel="noopener noreferrer">KpopX 접속하기</a>
+  </div>
+  <div class="panel"><p class="label">야동코리아 최신주소 안내</p><span class="name">YadongKorea</span>
+  <a class="contact" href="https://yadongkorea.page/" target="_blank" rel="noopener noreferrer">https://yadongkorea.page/</a>
+  <p>KpopX 한국 최신주소와 안전접속 정보를 제공하는 한국어 안내 허브입니다. 현재 주소 확인과 피싱·가짜 도메인 예방 정보를 안내하며 스트리밍 서비스를 제공하지 않습니다.</p></div>
+  <div class="panel"><p class="label">공식 최신주소 Telegram · KpopX 최신주소</p><span class="name">@kpopx_address</span>
+  <a class="contact" href="https://t.me/kpopx_address" target="_blank" rel="noopener noreferrer">https://t.me/kpopx_address</a>
+  <p>한국 최신 접속 주소, 도메인 변경, 중요 접속 공지를 위한 채널입니다. 고객지원 채팅이 아닙니다.</p></div>
+  <div class="panel"><p class="label">광고 · 제휴 · 기타 문의</p><span class="name">@kpopxcontact</span>
+  <a class="contact" href="https://t.me/kpopxcontact" target="_blank" rel="noopener noreferrer">https://t.me/kpopxcontact</a>
+  <p>광고, 파트너십, 기타 비즈니스 문의와 VIP / Private 이용 요청을 위한 직접 연락 계정입니다.</p></div>
+  <section class="panel vip"><h2>Private 영상 이용 안내</h2>
+  <p>Private 영상을 보고 싶으신 분은 먼저 <a href="https://kpopx.net/signup" target="_blank" rel="noopener noreferrer">KpopX에 회원가입</a>한 후 Telegram <a href="https://t.me/kpopxcontact" target="_blank" rel="noopener noreferrer">@kpopxcontact</a>로 가입한 KpopX 사용자명을 보내주세요.</p>
+  <p>확인 후 승인되면 24시간 이내 VIP 회원으로 등업해드립니다. VIP 승인은 운영자의 수동 검토 방식이며 자동 처리되지 않습니다.</p></section>
+  <p class="lead">Private 공개 여부는 KpopX 운영 상태에 따르며, VIP도 안전·규정 검토 제한을 우회하지 않습니다.</p>
+  <footer>KpopX Official Access Information<br>최근 업데이트: 2026-08-28 00:13 UTC</footer>
 </main></body></html>
