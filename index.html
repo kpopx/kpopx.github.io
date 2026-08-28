@@ -4,59 +4,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow">
-  <meta name="description" content="KpopX 공식 최신주소와 한국 접속주소를 확인하세요. 주소 변경 시 이 페이지와 공식 Telegram에서 새로운 KpopX 접속 주소를 안내합니다.">
+  <meta name="description" content="KpopX 최신주소와 한국 접속주소, YadongKorea 주소 안내, Telegram 최신주소 안내를 한곳에서 확인하세요.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
   <link rel="canonical" href="https://kpopx.github.io/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="KpopX 최신주소 - 공식 한국 접속 주소">
-  <meta property="og:description" content="KpopX 공식 최신주소와 한국 접속주소를 확인하세요. 주소 변경 시 이 페이지와 공식 Telegram에서 새로운 KpopX 접속 주소를 안내합니다.">
+  <meta property="og:title" content="KpopX 최신주소 - 한국 공식 접속 주소 및 주소 안내">
+  <meta property="og:description" content="KpopX 최신주소와 한국 접속주소, YadongKorea 주소 안내, Telegram 최신주소 안내를 한곳에서 확인하세요.">
   <meta property="og:url" content="https://kpopx.github.io/">
-  <title>KpopX 최신주소 - 공식 한국 접속 주소</title>
+  <title>KpopX 최신주소 - 한국 공식 접속 주소 및 주소 안내</title>
   <style>
-    :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    :root { color-scheme: dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; --bg:#0b0e10; --panel:#12171a; --panel-2:#0e1214; --line:#293136; --text:#edf0f2; --muted:#a7b0b6; --accent:#ffcc2f; }
     * { box-sizing: border-box; }
-    body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 24px 0; background: #0c0f11; color: #eef0f1; }
-    main { width: min(680px, calc(100% - 32px)); padding: clamp(28px, 7vw, 52px); border: 1px solid #282e32; border-radius: 14px; background: #121619; text-align: center; box-shadow: 0 18px 55px rgba(0,0,0,.28); }
-    .brand { margin: 0 0 28px; font-size: 22px; font-weight: 850; letter-spacing: -.4px; } .brand span { color: #ffcc2f; }
-    h1 { margin: 0 0 10px; font-size: clamp(28px, 7vw, 38px); letter-spacing: -1px; }
-    .lead { margin: 0 0 30px; color: #aeb5ba; line-height: 1.6; }
-    .label { margin: 0; color: #8f989e; font-size: 13px; font-weight: 700; }
-    .address { display: block; margin: 10px 0 16px; color: #ffcc2f; font-size: clamp(21px, 6vw, 30px); font-weight: 850; overflow-wrap: anywhere; }
-    .button { display: inline-flex; min-height: 46px; align-items: center; justify-content: center; padding: 0 22px; border-radius: 7px; background: #ffcc2f; color: #111416; font-weight: 850; }
-    .panel { margin-top: 22px; padding: 20px; border: 1px solid #282e32; border-radius: 10px; background: #0e1214; }
-    .panel p { margin: 8px 0 0; color: #aeb5ba; line-height: 1.6; }
-    .name { display: block; margin-top: 7px; font-size: 18px; font-weight: 800; }
-    .vip { text-align: left; }
-    .vip h2 { margin-top: 0; font-size: 20px; }
-    .vip p { color: #c9ced1; }
-    .contact { display: inline-block; margin-top: 8px; color: #eef0f1; overflow-wrap: anywhere; }
-    a { text-decoration: none; } a:hover { filter: brightness(1.08); } a:focus-visible { outline: 2px solid #ffcc2f; outline-offset: 4px; }
-    footer { margin-top: 34px; color: #697279; font-size: 12px; }
-    @media (max-width: 420px) { body { padding: 0; } main { width: 100%; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; border: 0; border-radius: 0; box-shadow: none; } }
+    body { margin:0; background:var(--bg); color:var(--text); line-height:1.7; }
+    header, main, footer { width:min(1080px,calc(100% - 32px)); margin:auto; }
+    header { padding:24px 0 18px; border-bottom:1px solid var(--line); }
+    main { padding:42px 0 58px; }
+    .brand { margin:0; font-size:24px; font-weight:850; letter-spacing:-.4px; } .brand span { color:var(--accent); }
+    h1 { max-width:850px; margin:0 0 12px; font-size:clamp(32px,5vw,48px); line-height:1.18; letter-spacing:-.035em; }
+    h2 { margin:0 0 12px; font-size:23px; line-height:1.35; }
+    h3 { margin:0 0 6px; font-size:18px; }
+    .lead { max-width:760px; margin:0; color:#cdd3d7; font-size:18px; }
+    section { margin-top:28px; padding:clamp(22px,4vw,32px); border:1px solid var(--line); border-radius:12px; background:var(--panel); }
+    .address-panel { border-color:#665827; background:#17170f; }
+    .label { margin:0; color:var(--muted); font-size:14px; font-weight:750; }
+    .address { display:block; width:max-content; max-width:100%; margin:8px 0 16px; color:var(--accent); font-size:clamp(26px,4vw,38px); font-weight:850; overflow-wrap:anywhere; }
+    .button { display:inline-flex; min-height:46px; align-items:center; justify-content:center; padding:0 22px; border-radius:8px; background:var(--accent); color:#111416; font-weight:850; }
+    .global { margin-top:18px; color:var(--muted); } .global a { margin-left:6px; }
+    .vip { border-left:4px solid var(--accent); } .vip p { max-width:780px; color:#c9ced1; }
+    .panel-link { display:block; width:max-content; max-width:100%; margin-top:4px; overflow-wrap:anywhere; }
+    .grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; }
+    .card { padding:20px; border:1px solid var(--line); border-radius:10px; background:var(--panel-2); }
+    .card p { margin:8px 0 0; color:var(--muted); }
+    .name { display:block; margin:4px 0; font-size:18px; font-weight:800; }
+    .keywords article:last-child { grid-column:1/-1; }
+    .safe p { max-width:820px; margin-bottom:0; color:#c9ced1; }
+    a { color:var(--accent); text-underline-offset:3px; } a:hover { filter:brightness(1.08); } a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; }
+    footer { padding:28px 0 42px; border-top:1px solid var(--line); color:#788289; font-size:13px; }
+    @media (max-width:900px) { main { padding-top:34px; } }
+    @media (max-width:700px) { header,main,footer { width:min(100% - 24px,1080px); } header { padding-top:18px; } main { padding:28px 0 44px; } .grid { grid-template-columns:1fr; } .keywords article:last-child { grid-column:auto; } section { margin-top:22px; padding:20px; } h1 { font-size:32px; } .lead { font-size:16px; } .global a { display:block; margin-left:0; } }
   </style>
 </head>
-<body><main>
-  <p class="brand">Kpop<span>X</span></p>
+<body><header><p class="brand">Kpop<span>X</span></p></header><main>
   <h1>KpopX 최신주소</h1>
-  <p class="lead">KpopX 한국 사이트의 공식 최신 접속 주소입니다.</p>
-  <p class="label">KpopX 글로벌 공식 사이트</p>
-  <a class="contact" href="https://kpopx.net/" target="_blank" rel="noopener noreferrer">https://kpopx.net/</a>
-  <div class="panel">
-  <p class="label">현재 한국 접속 주소</p>
+  <p class="lead">KpopX 한국 공식 접속 주소와 변경 안내를 확인하는 정보 페이지입니다.</p>
+  <section class="address-panel" id="current-address">
+  <h2>KpopX 한국 공식 접속 주소</h2>
   <a class="address" href="https://kpopx1.net/" target="_blank" rel="noopener noreferrer">https://kpopx1.net/</a>
   <a class="button" href="https://kpopx1.net/" target="_blank" rel="noopener noreferrer">KpopX 접속하기</a>
-  </div>
-  <div class="panel"><p class="label">야동코리아 최신주소 안내</p><span class="name">YadongKorea</span>
-  <a class="contact" href="https://yadongkorea.page/" target="_blank" rel="noopener noreferrer">https://yadongkorea.page/</a>
-  <p>KpopX 한국 최신주소와 안전접속 정보를 제공하는 한국어 안내 허브입니다. 현재 주소 확인과 피싱·가짜 도메인 예방 정보를 안내하며 스트리밍 서비스를 제공하지 않습니다.</p></div>
-  <div class="panel"><p class="label">공식 최신주소 Telegram · KpopX 최신주소</p><span class="name">@kpopx_address</span>
-  <a class="contact" href="https://t.me/kpopx_address" target="_blank" rel="noopener noreferrer">https://t.me/kpopx_address</a>
-  <p>한국 최신 접속 주소, 도메인 변경, 중요 접속 공지를 위한 채널입니다. 고객지원 채팅이 아닙니다.</p></div>
-  <div class="panel"><p class="label">광고 · 제휴 · 기타 문의</p><span class="name">@kpopxcontact</span>
-  <a class="contact" href="https://t.me/kpopxcontact" target="_blank" rel="noopener noreferrer">https://t.me/kpopxcontact</a>
-  <p>광고, 파트너십, 기타 비즈니스 문의와 VIP / Private 이용 요청을 위한 직접 연락 계정입니다.</p></div>
-  <section class="panel vip"><h2>Private 영상 이용 안내</h2>
-  <p>Private 영상을 보고 싶으신 분은 먼저 <a href="https://kpopx.net/signup" target="_blank" rel="noopener noreferrer">KpopX에 회원가입</a>한 후 Telegram <a href="https://t.me/kpopxcontact" target="_blank" rel="noopener noreferrer">@kpopxcontact</a>로 가입한 KpopX 사용자명을 보내주세요.</p>
-  <p>확인 후 승인되면 24시간 이내 VIP 회원으로 등업해드립니다. VIP 승인은 운영자의 수동 검토 방식이며 자동 처리되지 않습니다.</p></section>
-  <p class="lead">Private 공개 여부는 KpopX 운영 상태에 따르며, VIP도 안전·규정 검토 제한을 우회하지 않습니다.</p>
-  <footer>KpopX Official Access Information<br>최근 업데이트: 2026-08-28 00:13 UTC</footer>
-</main></body></html>
+  <p class="global"><span class="label">KpopX 글로벌</span><a href="https://kpopx.net/" target="_blank" rel="noopener noreferrer">https://kpopx.net/</a></p>
+  </section>
+  <section class="vip" id="private-vip"><h2>Private 영상 이용 안내</h2>
+  <p>Private 영상을 이용하려면 먼저 <a href="https://kpopx.net/signup" target="_blank" rel="noopener noreferrer">KpopX 회원가입</a>을 완료해주세요.</p>
+  <p>회원가입 후 Telegram <a href="https://t.me/kpopxcontact" target="_blank" rel="noopener noreferrer">@kpopxcontact</a>로 가입한 KpopX 사용자명을 보내주세요.</p>
+  <p>운영자 확인 후 승인되면 24시간 이내 VIP 회원으로 등업됩니다. VIP 승인은 수동 검토 방식입니다.</p>
+  <p>VIP 회원이라도 KpopX의 안전/규정 검토 제한을 우회할 수 없습니다.</p></section>
+  <section id="yadongkorea"><h2>야동코리아 최신주소 안내</h2><span class="name">YadongKorea</span>
+  <a class="panel-link" href="https://yadongkorea.page/" target="_blank" rel="noopener noreferrer">https://yadongkorea.page/</a>
+  <p>KpopX 한국 최신주소, 주소 변경 안내, 안전접속 정보, 사칭·피싱 도메인 확인 방법을 제공하는 한국어 주소 안내 허브입니다.</p>
+  <a class="button" href="https://yadongkorea.page/" target="_blank" rel="noopener noreferrer">야동코리아 주소 안내 보기</a></section>
+  <section id="official-contacts"><h2>KpopX 공식 연락처</h2><div class="grid">
+  <article class="card"><h3>최신주소 공지</h3><span class="name">KpopX 최신주소 Telegram<br>@kpopx_address</span><a class="panel-link" href="https://t.me/kpopx_address" target="_blank" rel="noopener noreferrer">https://t.me/kpopx_address</a><p>한국 접속 주소 변경 및 중요 접속 공지 채널</p></article>
+  <article class="card"><h3>문의 · 광고 · 제휴 · VIP</h3><span class="name">@kpopxcontact</span><a class="panel-link" href="https://t.me/kpopxcontact" target="_blank" rel="noopener noreferrer">https://t.me/kpopxcontact</a><p>광고, 제휴, 비즈니스 문의 및 VIP/Private 승인 요청</p></article>
+  </div></section>
+  <section id="keyword-guides"><h2>주요 주소찾기 검색어</h2><div class="grid keywords">
+  <article class="card"><h3><a href="https://yadongkorea.page/yadongkorea" target="_blank" rel="noopener noreferrer">야동코리아 관련 검색어 안내</a></h3><p>야동코리아 관련 주소 검색 시 확인할 사항과 KpopX 한국 최신 접속 주소, 사칭 사이트 주의 방법을 안내합니다.</p></article>
+  <article class="card"><h3><a href="https://yadongkorea.page/yadong-factory" target="_blank" rel="noopener noreferrer">야동공장 관련 검색어 안내</a></h3><p>야동공장 관련 주소찾기 검색에서 사칭·피싱 도메인을 구별하고 KpopX 최신주소를 확인하는 방법을 안내합니다.</p></article>
+  <article class="card"><h3><a href="https://yadongkorea.page/mingky" target="_blank" rel="noopener noreferrer">밍키넷 관련 검색어 안내</a></h3><p>밍키넷 관련 주소 검색 시 도메인 변경과 유사·사칭 사이트를 확인하는 방법, KpopX 최신 접속 정보를 안내합니다.</p></article>
+  <article class="card"><h3><a href="https://yadongkorea.page/redtong" target="_blank" rel="noopener noreferrer">레드통 관련 검색어 안내</a></h3><p>레드통 관련 검색어로 주소를 찾을 때 사칭 사이트를 피하고 KpopX 공식 한국 주소를 확인하는 절차를 설명합니다.</p></article>
+  <article class="card"><h3><a href="https://yadongkorea.page/yakored" target="_blank" rel="noopener noreferrer">야코레드 관련 검색어 안내</a></h3><p>야코레드 관련 주소 검색에서 가짜 도메인과 피싱을 피하고 KpopX 한국 최신주소를 안전하게 확인하는 방법입니다.</p></article>
+  </div></section>
+  <section class="safe"><h2>현재 주소를 안전하게 확인하세요</h2><p>주소는 변경될 수 있으므로 검색 결과의 유사 도메인보다 이 페이지, YadongKorea, 최신주소 공지 채널에서 현재 한국 주소를 확인하세요.</p></section>
+</main><footer>KpopX Official Access Information<br>최근 업데이트: 2026-08-28 02:04 UTC</footer></body></html>
